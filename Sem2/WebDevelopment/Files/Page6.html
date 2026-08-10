@@ -1,0 +1,76 @@
+<html>
+<head>
+  
+  <title>CSS Color Representation</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .box {
+      padding: 15px;
+      margin: 10px 0;
+      color: white;
+      font-size: 18px;
+      border-radius: 6px;
+    }
+ /* 1. Named Color */
+    .named {
+      background-color: red;
+    }
+
+    /* 2. Hexadecimal Color */
+    .hex {
+      background-color: #3498db;
+    }
+
+    /* 3. RGB Color */
+    .rgb {
+      background-color: rgb(46, 204, 113);
+    }
+
+    /* 4. RGBA Color (with transparency) */
+    .rgba {
+      background-color: rgba(155, 89, 182, 0.6);
+    }
+
+    /* 5. HSL Color */
+    .hsl {
+      background-color: hsl(39, 100%, 50%);
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Color Representation</h1>
+
+  <div class="box named">
+    Named Color → red
+  </div>
+
+  <div class="box hex">
+    Hexadecimal Color → #3498db
+  </div>
+
+  <div class="box rgb">
+    RGB Color → rgb(46, 204, 113)
+  </div>
+
+  <div class="box rgba">
+    RGBA Color → rgba(155, 89, 182, 0.6)
+  </div>
+
+  <div class="box hsl">
+    HSL Color → hsl(39, 100%, 50%)
+  </div>
+
+</body>
+</html>

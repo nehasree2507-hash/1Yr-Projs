@@ -1,0 +1,63 @@
+<html>
+<head><title>First HTML Form</title></head>
+<!--script type="text/javascript">
+function formsubmit(){
+	console.log("Hello")
+	console.log(document.getElementById("name").value)
+}
+</script>-->
+<body>
+<form name="registration" method="post">
+<!-- TEXT INPUT-->
+<label>Full Name</label>
+<br>
+<input type="text" id="name" required></input>
+<br>
+<label>Email</label>
+<br>
+<input type="email" name="email" required></input>
+<br>
+<label>Password</label>
+<br>
+<input type="password" pattern=* required></input>
+<br>
+<br>
+
+<!--Radio Buttons-->
+<label>Gender</label>
+<br>
+<input type="radio" name="gender" value="Male" required>MALE</input>
+<br>
+<input type="radio" name="gender" value="Female" required>FEMALE</input>
+<br>
+<br>
+
+<label>Skills</label>
+<br>
+<input type="checkbox" name="skill" value="JAVA" required>JAVA</input>
+<br>
+<input type="checkbox" name="skill" value="HTML" required>HTML</input>
+<br>
+<input type="checkbox" name="skill" value="CSS" required>CSS</input>
+<br>
+<br>
+
+<!-- Dropdown list-->
+<label>Course</label>
+<select name="course">
+<option></option>
+<option value="JAVA">Java</option><br>
+<option value="DSA">DSA</option><br>
+<option value="C++">C++</option><br>
+</select>
+<br>
+<br>
+
+<!-- Button -->
+<input type="submit" value="Register" onclick="formsubmit()"></input>
+<br>
+<input type="reset" value="Clear"></input>
+<br>
+</form>
+</body>
+</html>
