@@ -1,4 +1,0 @@
-boomika|123456|Bachupally|1234567|12345
-Nehasree|12345|Kukatpally|Neha123|123Neha
-Boomika|98765|Erragadda|Boom123|123Boom
-Dikshita|87765|ESI Hospital|Dikshi123|123Dikshi
