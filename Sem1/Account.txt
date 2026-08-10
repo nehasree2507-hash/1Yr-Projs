@@ -1,8 +1,0 @@
-1234567|600.0|December 11, 2025|movie
-1234567|-400.0|December 11, 2025|Amount paid
-Neha123|400.0|December 11, 2025|Park
-Neha123|-360.0|December 11, 2025|Amount paid
-Dikshi123|430.0|December 11, 2025|Wonderla
-Dikshi123|1220.0|December 11, 2025|Trip2
-Dikshi123|2200.0|December 11, 2025|Temples
-
